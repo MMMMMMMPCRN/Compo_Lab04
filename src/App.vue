@@ -14,7 +14,7 @@ const { message } = storeToRefs(store)
       <h4>{{ message }}</h4>
     </div>
     <nav>
-      <RouterLink :to="{ name: 'event-list' }">Home</RouterLink>
+      <RouterLink :to="{ name: 'event-list' }">Home | </RouterLink>
       <RouterLink :to="{ name: 'about' }">About</RouterLink>
     </nav>
   </header>
